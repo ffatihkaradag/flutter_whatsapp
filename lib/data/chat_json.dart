@@ -54,7 +54,7 @@ const List chat_data = [
   }
 ];
 
-List setting_section_one = [
+List settingSectionOne = [
   {"icon": Icons.star, "text": "Starred Messages", "color": Colors.yellow[700]},
   {
     "icon": Icons.laptop,
@@ -62,7 +62,7 @@ List setting_section_one = [
     "color": Colors.green[800]
   },
 ];
-List setting_section_two = [
+List settingSectionTwo = [
   {"icon": Icons.lock, "text": "Account", "color": Colors.blue[700]},
   {"icon": Icons.chat_bubble, "text": "Chats", "color": Colors.green},
   {
@@ -77,7 +77,7 @@ List setting_section_two = [
   },
 ];
 
-List setting_section_three = [
+List settingSectionThree = [
   {"icon": Icons.info_outline, "text": "Help", "color": Colors.blue[600]},
   {
     "icon": Icons.favorite_rounded,

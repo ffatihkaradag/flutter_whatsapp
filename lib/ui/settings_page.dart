@@ -109,7 +109,7 @@ class _SettingsPageState extends State<SettingsPage> {
         SizedBox(height: 30),
         Column(
           children: List.generate(
-            setting_section_one.length,
+            settingSectionOne.length,
             (index) {
               return Container(
                 width: double.infinity,
@@ -129,11 +129,11 @@ class _SettingsPageState extends State<SettingsPage> {
                                 height: 30,
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(8),
-                                  color: setting_section_one[index]['color'],
+                                  color: settingSectionOne[index]['color'],
                                 ),
                                 child: Center(
                                   child: Icon(
-                                    setting_section_one[index]['icon'],
+                                    settingSectionOne[index]['icon'],
                                     color: white,
                                     size: 20,
                                   ),
@@ -141,7 +141,7 @@ class _SettingsPageState extends State<SettingsPage> {
                               ),
                               SizedBox(width: 12),
                               Text(
-                                setting_section_one[index]['text'],
+                                settingSectionOne[index]['text'],
                                 style: TextStyle(
                                   fontSize: 16,
                                   color: white,
@@ -167,7 +167,7 @@ class _SettingsPageState extends State<SettingsPage> {
         SizedBox(height: 30),
         Column(
           children: List.generate(
-            setting_section_two.length,
+            settingSectionTwo.length,
             (index) {
               return Container(
                 width: double.infinity,
@@ -187,11 +187,11 @@ class _SettingsPageState extends State<SettingsPage> {
                                 height: 30,
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(8),
-                                  color: setting_section_two[index]['color'],
+                                  color: settingSectionTwo[index]['color'],
                                 ),
                                 child: Center(
                                   child: Icon(
-                                    setting_section_two[index]['icon'],
+                                    settingSectionTwo[index]['icon'],
                                     color: white,
                                     size: 20,
                                   ),
@@ -199,7 +199,7 @@ class _SettingsPageState extends State<SettingsPage> {
                               ),
                               SizedBox(width: 12),
                               Text(
-                                setting_section_two[index]['text'],
+                                settingSectionTwo[index]['text'],
                                 style: TextStyle(
                                   fontSize: 16,
                                   color: white,
@@ -225,7 +225,7 @@ class _SettingsPageState extends State<SettingsPage> {
         SizedBox(height: 30),
         Column(
           children: List.generate(
-            setting_section_three.length,
+            settingSectionThree.length,
             (index) {
               return Container(
                 width: double.infinity,
@@ -245,11 +245,11 @@ class _SettingsPageState extends State<SettingsPage> {
                                 height: 30,
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(8),
-                                  color: setting_section_three[index]['color'],
+                                  color: settingSectionThree[index]['color'],
                                 ),
                                 child: Center(
                                   child: Icon(
-                                    setting_section_three[index]['icon'],
+                                    settingSectionThree[index]['icon'],
                                     color: white,
                                     size: 20,
                                   ),
@@ -257,7 +257,7 @@ class _SettingsPageState extends State<SettingsPage> {
                               ),
                               SizedBox(width: 12),
                               Text(
-                                setting_section_three[index]['text'],
+                                settingSectionThree[index]['text'],
                                 style: TextStyle(
                                   fontSize: 16,
                                   color: white,
